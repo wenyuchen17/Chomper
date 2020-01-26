@@ -1,0 +1,70 @@
+{
+    "transactions": [
+        {
+            "tid": 1, 
+            "uid": 9,
+            "items": [
+                {
+                    "id": 1,
+                    "quantity": 1,
+                    "addons": [
+                        { "aid": 1 },
+                        { "aid": 2 }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "quantity": 2,
+                    "addons": [
+                        { "aid": 2 }
+                    ]
+                }
+            ],
+            "subtotal":  23.49, 
+            "time": "2019-11-23"
+        },
+        {
+            "tid": 2, 
+            "uid": 2,
+            "items": [
+                {
+                    "id": 3,
+                    "quantity": 4
+                }
+            ],
+            "subtotal": 17.56,
+            "time": "2019-11-21"
+        },
+        {
+            "tid": 3, 
+            "uid": 2,
+            "items": [
+                {
+                    "id": 3,
+                    "quantity": 1,
+                    "addons": [
+                        { "aid": 1 },
+                        { "aid": 2 },
+                        { "aid": 3 }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "quantity": 2,
+                    "addons": [
+                        { "aid": 1 }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "quantity": 1,
+                    "addons": [
+                        { "aid": 1 }
+                    ]
+                }
+            ],
+            "subtotal": 19.34, 
+            "time": "2019-11-17" 
+        }
+    ]
+}
